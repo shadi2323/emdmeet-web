@@ -197,10 +197,10 @@ export default function Home() {
               </div>
             </div>
             <div className="flex space-x-6">
-              <a href="#" className="text-slate-400 hover:text-white transition-colors" href="/privacy">Privacy</a>
-              <a href="#" className="text-slate-400 hover:text-white transition-colors" href="/terms">Terms</a>
-              <a href="/safety" className="hover:text-slate-900">Safety</a>
-              <a href="/contact" className="hover:text-slate-900">Contact</a>
+              <a href="/privacy" className="text-slate-400 hover:text-white transition-colors">Privacy</a>
+              <a href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms</a>
+              <a href="/safety" className="text-slate-400 hover:text-white transition-colors">Safety</a>
+              <a href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</a>
             </div>
           </div>
         </div>
