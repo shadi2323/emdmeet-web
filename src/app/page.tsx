@@ -48,7 +48,6 @@ export default function Home() {
           <div className="text-center">
             <div className="mb-12">
               <div className="h-20 sm:h-24 md:h-28 lg:h-32 mx-auto">
-                <Logo size="xl" />
               </div>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
