@@ -187,6 +187,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Company Information Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 shadow-sm border border-slate-200">
+            <h2 className="text-2xl font-bold text-slate-900 mb-6 text-center">Company Information</h2>
+            <div className="space-y-4 text-center">
+              <p className="text-lg text-slate-700 leading-relaxed">
+                EMDmeet is developed, owned, and operated by 17494165 CANADA INC.
+              </p>
+              <p className="text-lg text-slate-700 leading-relaxed">
+                emdmeet-web.vercel.app is the official website of EMDmeet.
+              </p>
+              <p className="text-lg text-slate-700 leading-relaxed">
+                17494165 CANADA INC. is the legal entity responsible for the product, branding, and operation of EMDmeet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -201,7 +221,7 @@ export default function Home() {
               <a href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms of Service</a>
               <a href="/safety" className="text-slate-400 hover:text-white transition-colors">Safety</a>
               <a href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</a>
-              <a href="/company" className="text-slate-400 hover:text-white transition-colors">Company Information</a>
+              <a href="/company" className="text-slate-400 hover:text-white transition-colors">Company</a>
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8">
