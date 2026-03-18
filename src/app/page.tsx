@@ -190,7 +190,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="mb-4 md:mb-0">
               <div className="h-12">
                 <Logo size="lg" />
@@ -201,6 +201,14 @@ export default function Home() {
               <a href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms of Service</a>
               <a href="/safety" className="text-slate-400 hover:text-white transition-colors">Safety</a>
               <a href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</a>
+              <a href="/company" className="text-slate-400 hover:text-white transition-colors">Company Information</a>
+            </div>
+          </div>
+          <div className="border-t border-slate-800 pt-8">
+            <div className="text-center">
+              <p className="text-slate-400 text-sm">
+                EMDmeet is developed and operated by 17494165 CANADA INC.
+              </p>
             </div>
           </div>
         </div>
