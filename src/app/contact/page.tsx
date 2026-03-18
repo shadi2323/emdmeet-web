@@ -15,6 +15,8 @@ export default function ContactPage() {
             </a>
           </p>
           <p>Region: Selected Canadian markets</p>
+          <p>Response time: 1–3 business days</p>
+          <p>For safety-related concerns, please include relevant details in your email so our team can review the matter promptly.</p>
         </div>
       </div>
     </main>

@@ -26,6 +26,15 @@ export default function SafetyPage() {
           </section>
 
           <section>
+            <h2 className="mb-2 text-2xl font-semibold">Moderation and Enforcement</h2>
+            <p>
+              We may manually review incidents, investigate complaints, restrict accounts, cancel
+              arrangements, or permanently remove users whose behavior creates safety, fraud, or
+              community-standard concerns.
+            </p>
+          </section>
+
+          <section>
             <h2 className="mb-2 text-2xl font-semibold">Zero Tolerance</h2>
             <p>
               We do not tolerate harassment, threats, coercion, impersonation, fraud, hate-based

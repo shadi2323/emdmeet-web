@@ -51,10 +51,10 @@ export default function Home() {
               </div>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-              Verified, curated offline one-on-one social connections in selected Canadian regions.
+              EMDmeet is a service provider that facilitates high-quality offline one-on-one face-to-face social connections.
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 max-w-4xl mx-auto mb-8 leading-relaxed">
-              We invite or accept applications from people in selected Canadian regions, verify real identities, review applicant quality, and facilitate meaningful in-person social meetings through a structured matching and safety review process.
+              We invite or accept applications from people in selected Canadian regions, verify real identities, review applicant quality, and help facilitate meaningful in-person social meetings through a structured matching process.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <a href="/#contact" className="bg-white text-slate-900 px-8 py-4 rounded-full text-lg font-medium hover:bg-slate-100 transition-all transform hover:scale-105 shadow-lg">
@@ -112,7 +112,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Real-person review and moderation</h3>
+              <h3 className="text-xl font-semibold text-slate-900 mb-3">Real-person review</h3>
               <p className="text-slate-600 leading-relaxed">
                 Applicants are reviewed to help ensure profile authenticity and platform trust.
               </p>
@@ -134,7 +134,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-3">Anti-no-show and conduct enforcement mechanism</h3>
+              <h3 className="text-xl font-semibold text-slate-900 mb-3">Anti-no-show mechanism</h3>
               <p className="text-slate-600 leading-relaxed">
                 Structured confirmation and accountability measures help reduce no-shows and protect user experience.
               </p>
@@ -197,8 +197,8 @@ export default function Home() {
               </div>
             </div>
             <div className="flex space-x-6">
-              <a href="/privacy" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms of Service</a>
+              <a href="/privacy" className="text-slate-400 hover:text-white transition-colors">Privacy</a>
+              <a href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms</a>
               <a href="/safety" className="text-slate-400 hover:text-white transition-colors">Safety</a>
               <a href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</a>
             </div>
