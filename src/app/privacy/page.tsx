@@ -73,7 +73,14 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-2 text-2xl font-semibold">8. Contact</h2>
+            <h2 className="mb-2 text-2xl font-semibold">8. Third-Party Services</h2>
+            <p>
+              We may use trusted third-party services, such as cloud infrastructure, authentication, analytics, and communication providers, to operate and improve the platform. These providers process information in accordance with applicable laws and their own privacy practices.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-2xl font-semibold">9. Contact</h2>
             <p>
               For privacy-related questions, contact us at{" "}
               <a className="text-blue-600 underline" href="mailto:admin@emdmeet.com">

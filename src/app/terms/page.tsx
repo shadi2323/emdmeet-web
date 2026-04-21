@@ -55,7 +55,17 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-2 text-2xl font-semibold">6. Contact</h2>
+            <h2 className="mb-2 text-2xl font-semibold">6. Commitment-Based Participation</h2>
+            <p>
+              EMDMeet may use a structured system to improve reliability, reduce no-shows, and support a better user experience. Participation in this system is part of the platform experience and helps maintain a respectful and dependable community.
+            </p>
+            <p>
+              This system is not a payment for interactions or outcomes.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-2xl font-semibold">7. Contact</h2>
             <p>
               Questions about these Terms can be sent to{" "}
               <a className="text-blue-600 underline" href="mailto:admin@emdmeet.com">
