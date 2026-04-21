@@ -216,12 +216,13 @@ export default function Home() {
                 <Logo size="lg" />
               </div>
             </div>
-            <div className="flex space-x-6">
+            <div className="flex flex-wrap space-x-6">
               <a href="/privacy" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</a>
               <a href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms of Service</a>
               <a href="/safety" className="text-slate-400 hover:text-white transition-colors">Safety</a>
               <a href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</a>
               <a href="/company" className="text-slate-400 hover:text-white transition-colors">Company</a>
+              <a href="/data-deletion" className="text-slate-400 hover:text-white transition-colors">Data Deletion</a>
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8">
