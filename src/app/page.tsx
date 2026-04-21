@@ -47,9 +47,6 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center">
             <div className="mb-12">
-              <div className="text-2xl font-bold text-red-600 mb-8">
-                VERSION TEST - NEW BUILD
-              </div>
               <div className="h-20 sm:h-24 md:h-28 lg:h-32 mx-auto">
               </div>
             </div>
@@ -89,7 +86,7 @@ export default function Home() {
               { step: 2, title: "Officially review identity and profile authenticity" },
               { step: 3, title: "Assess user qualifications, preferences, and compatibility factors" },
               { step: 4, title: "Efficiently facilitate offline real-person social meetings" },
-              { step: 5, title: "Collect feedback after each meeting and manage user credit standing" }
+              { step: 5, title: "Collect feedback after each meeting and improve participation reliability" }
             ].map((item) => (
               <div key={item.step} className="bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-2xl p-6 hover:shadow-lg transition-all transform hover:scale-105">
                 <div className="flex items-center justify-center w-12 h-12 bg-slate-900 text-white rounded-full text-lg font-bold mb-4">
