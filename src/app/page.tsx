@@ -47,6 +47,9 @@ export default function Home() {
         <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center">
             <div className="mb-12">
+              <div className="text-2xl font-bold text-red-600 mb-8">
+                VERSION TEST - NEW BUILD
+              </div>
               <div className="h-20 sm:h-24 md:h-28 lg:h-32 mx-auto">
               </div>
             </div>
