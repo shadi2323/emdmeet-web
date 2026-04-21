@@ -64,7 +64,16 @@ export default function PrivacyPage() {
           </section>
 
           <section>
-            <h2 className="mb-2 text-2xl font-semibold">7. Contact</h2>
+            <h2 className="mb-2 text-2xl font-semibold">7. Data Deletion</h2>
+            <p>
+              Users may request account and data deletion at any time by contacting admin@emdmeet.com. 
+              Upon request, we will delete or anonymize personal data within a reasonable timeframe, 
+              except where retention is required for legal, safety, fraud prevention, or compliance purposes.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-2xl font-semibold">8. Contact</h2>
             <p>
               For privacy-related questions, contact us at{" "}
               <a className="text-blue-600 underline" href="mailto:admin@emdmeet.com">
