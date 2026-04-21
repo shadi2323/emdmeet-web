@@ -200,7 +200,7 @@ export default function Home() {
                 EMDmeet is developed, owned, and operated by 17494165 CANADA INC.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed">
-                emdmeet-web.vercel.app is the official website of EMDmeet.
+                https://emdmeet.com is the official website of EMDmeet.
               </p>
               <p className="text-lg text-slate-700 leading-relaxed">
                 17494165 CANADA INC. is the legal entity responsible for the product, branding, and operation of EMDmeet.
