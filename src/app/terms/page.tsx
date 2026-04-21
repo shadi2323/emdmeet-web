@@ -57,10 +57,10 @@ export default function TermsPage() {
           <section>
             <h2 className="mb-2 text-2xl font-semibold">6. Commitment-Based Participation</h2>
             <p>
-              EMDMeet may use a structured system to improve reliability, reduce no-shows, and support a better user experience. Participation in this system is part of the platform experience and helps maintain a respectful and dependable community.
+              EMDMeet uses a structured system to improve reliability, reduce no-shows, and support a better user experience.
             </p>
             <p>
-              This system is not a payment for interactions or outcomes.
+              This system is designed to encourage responsible participation and is not a payment for interactions or outcomes.
             </p>
           </section>
 
