@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Logo from '@/components/Logo';
 
 export default function Home() {
@@ -16,16 +17,16 @@ export default function Home() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#home" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
-                <a href="/#how-it-works" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">How It Works</a>
-                <a href="/#safety" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Safety</a>
-                <a href="#who-its-for" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Who It's For</a>
-                <a href="/#contact" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                <Link href="#home" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</Link>
+                <Link href="/#how-it-works" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">How It Works</Link>
+                <Link href="/#safety" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Safety</Link>
+                <Link href="#who-its-for" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Who It&apos;s For</Link>
+                <Link href="/#contact" className="text-slate-700 hover:text-slate-900 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact</Link>
               </div>
             </div>
             <div className="md:hidden">
               <div className="flex space-x-2">
-                <a href="/#contact" className="bg-slate-900 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-slate-800 transition-colors">Contact</a>
+                <Link href="/#contact" className="bg-slate-900 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-slate-800 transition-colors">Contact</Link>
               </div>
             </div>
           </div>
@@ -57,15 +58,15 @@ export default function Home() {
               We invite or accept applications from people in selected Canadian regions, verify real identities, review applicant quality, and facilitate meaningful in-person social meetings through a structured matching and safety review process.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-              <a href="/#contact" className="bg-white text-slate-900 px-8 py-4 rounded-full text-lg font-medium hover:bg-slate-100 transition-all transform hover:scale-105 shadow-lg">
+              <Link href="/#contact" className="bg-white text-slate-900 px-8 py-4 rounded-full text-lg font-medium hover:bg-slate-100 transition-all transform hover:scale-105 shadow-lg">
                 Contact Us
-              </a>
-              <a href="/#how-it-works" className="bg-transparent text-white border-2 border-white px-8 py-4 rounded-full text-lg font-medium hover:bg-white hover:text-slate-900 transition-all transform hover:scale-105">
+              </Link>
+              <Link href="/#how-it-works" className="bg-transparent text-white border-2 border-white px-8 py-4 rounded-full text-lg font-medium hover:bg-white hover:text-slate-900 transition-all transform hover:scale-105">
                 Learn How It Works
-              </a>
+              </Link>
             </div>
             <p className="text-sm text-white/80">
-              Currently focused on selected Canadian regions.
+              For adults age 18 and over. Currently focused on selected Canadian regions.
             </p>
           </div>
         </div>
@@ -147,9 +148,10 @@ export default function Home() {
       <section id="who-its-for" className="py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">Who It's For</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">Who It&apos;s For</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto mb-12">
-              EMDmeet is designed for people in selected regions of Canada who are looking for more intentional, better-managed, offline one-on-one social experiences.
+              EMDmeet is designed for adults age 18 and over in selected regions of Canada who are
+              looking for more intentional, better-managed, offline one-on-one social experiences.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -217,13 +219,13 @@ export default function Home() {
               </div>
             </div>
             <div className="flex flex-wrap space-x-6">
-              <a href="/privacy" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</a>
-              <a href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms of Service</a>
-              <a href="/safety" className="text-slate-400 hover:text-white transition-colors">Safety</a>
-              <a href="/child-safety" className="text-slate-400 hover:text-white transition-colors">Child Safety</a>
-              <a href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</a>
-              <a href="/company" className="text-slate-400 hover:text-white transition-colors">Company</a>
-              <a href="/data-deletion" className="text-slate-400 hover:text-white transition-colors">Data Deletion</a>
+              <Link href="/privacy" className="text-slate-400 hover:text-white transition-colors">Privacy Policy</Link>
+              <Link href="/terms" className="text-slate-400 hover:text-white transition-colors">Terms of Service</Link>
+              <Link href="/safety" className="text-slate-400 hover:text-white transition-colors">Safety</Link>
+              <Link href="/child-safety" className="text-slate-400 hover:text-white transition-colors">Child Safety</Link>
+              <Link href="/contact" className="text-slate-400 hover:text-white transition-colors">Contact</Link>
+              <Link href="/company" className="text-slate-400 hover:text-white transition-colors">Company</Link>
+              <Link href="/data-deletion" className="text-slate-400 hover:text-white transition-colors">Data Deletion</Link>
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8">

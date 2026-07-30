@@ -3,7 +3,7 @@ export default function PrivacyPage() {
     <main className="min-h-screen bg-white px-6 py-16 text-slate-800">
       <div className="mx-auto max-w-4xl">
         <h1 className="mb-6 text-4xl font-bold">Privacy Policy</h1>
-        <p className="mb-4 text-sm text-slate-500">Last updated: March 2026</p>
+        <p className="mb-4 text-sm text-slate-500">Last updated: July 29, 2026</p>
 
         <div className="space-y-6 leading-7">
           <p>
@@ -66,9 +66,15 @@ export default function PrivacyPage() {
           <section>
             <h2 className="mb-2 text-2xl font-semibold">7. Data Deletion</h2>
             <p>
-              Users may request account and data deletion at any time by contacting admin@emdmeet.com. 
-              Upon request, we will delete or anonymize personal data within a reasonable timeframe, 
-              except where retention is required for legal, safety, fraud prevention, or compliance purposes.
+              Users may request account and associated data deletion at any time from the EMDmeet
+              app by opening Settings and selecting Delete Account. Users who cannot access the app
+              may follow the instructions on our{" "}
+              <a className="text-blue-600 underline" href="/data-deletion">
+                Data Deletion Request
+              </a>{" "}
+              page. After a valid request, we will delete or anonymize personal data within a
+              reasonable timeframe, except where limited retention is required for legal, safety,
+              fraud prevention, or compliance purposes.
             </p>
           </section>
 

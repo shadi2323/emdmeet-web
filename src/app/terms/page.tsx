@@ -3,7 +3,7 @@ export default function TermsPage() {
     <main className="min-h-screen bg-white px-6 py-16 text-slate-800">
       <div className="mx-auto max-w-4xl">
         <h1 className="mb-6 text-4xl font-bold">Terms of Service</h1>
-        <p className="mb-4 text-sm text-slate-500">Last updated: March 2026</p>
+        <p className="mb-4 text-sm text-slate-500">Last updated: July 29, 2026</p>
 
         <div className="space-y-6 leading-7">
           <p>
@@ -22,9 +22,11 @@ export default function TermsPage() {
           <section>
             <h2 className="mb-2 text-2xl font-semibold">2. Eligibility</h2>
             <p>
-              You must provide accurate information and comply with applicable laws. We may refuse,
-              limit, suspend, or terminate access at our discretion where safety, policy, or
-              service integrity concerns arise.
+              EMDmeet is for adults only. You must be at least 18 years old to create an account or
+              use the service. You must provide accurate information and comply with applicable
+              laws. Accounts that belong to, or appear to belong to, anyone under 18 are not
+              permitted. We may refuse, limit, suspend, or terminate access at our discretion where
+              safety, policy, age, or service integrity concerns arise.
             </p>
           </section>
 
@@ -65,7 +67,19 @@ export default function TermsPage() {
           </section>
 
           <section>
-            <h2 className="mb-2 text-2xl font-semibold">7. Contact</h2>
+            <h2 className="mb-2 text-2xl font-semibold">7. Child Safety</h2>
+            <p>
+              Our zero-tolerance standards for child sexual abuse and exploitation are published in
+              our{" "}
+              <a className="text-blue-600 underline" href="/child-safety">
+                Child Safety Standards
+              </a>
+              .
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-2 text-2xl font-semibold">8. Contact</h2>
             <p>
               Questions about these Terms can be sent to{" "}
               <a className="text-blue-600 underline" href="mailto:admin@emdmeet.com">
